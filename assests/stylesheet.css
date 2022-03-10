@@ -4,14 +4,32 @@ header {
     margin-right: 10%;
 }
 
+.images {
 
+}
+.image-1{
+    height: 100px;
+    width: 100px;
+}
+
+.image-2{
+    display: none;
+    height: 100px;
+    width: 100px;
+}
+
+.image-3 {
+    display: none;
+    height: 100px;
+    width: 100px;
+}
 li {
     padding: 5px;
 }
 
 header nav ul {
     list-style-type: none;
-    background-color: forestgreen;
+background-color: forestgreen;
     }
 
 header nav ul li {
@@ -20,12 +38,6 @@ header nav ul li {
    margin: 20px
 }
 
-
-
-
-
-
-
 aside {
     margin-right: 10px;
     clear: both;
@@ -33,3 +45,25 @@ aside {
     width: 10%;
     height: 100%;
 }
+
+@media screen and (max-width: 992px) {
+    .image-1{
+      display: none;
+    }
+
+    .image-2{
+        display: block;
+    }
+  }
+  
+  
+@media screen and (max-width: 768px) {
+    .image-2{
+      display: none;
+    }
+
+    .image-3{
+        display: block;
+    }
+  }
+  

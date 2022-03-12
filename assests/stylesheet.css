@@ -47,6 +47,10 @@ margin: 5px;
     flex-wrap: wrap;
 } 
 
+h2 {
+    text-align: center;
+}
+
 main {
     width: 96%;
 }
@@ -67,17 +71,26 @@ main {
     max-height: fit-content;
     border: 5px;
     margin: 10px;
+    transition: 0.6s;
   }
   
+  .card-column:hover{
+    background-color: pink;
+    }
+
+.icon {   
+    height: 100px;
+    width: 100px;
+}
+
+.icon:hover{
+    zoom: 150%;
+}
 
 .cute-puppy {
     height: 300px;
     width: 300px;   
 }
-
-.card-column:hover{
-    background-color: black;
-    }
 
 
 aside {
@@ -91,7 +104,15 @@ aside {
 }
 
 footer {
-    
+   text-align: center; 
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: olive;
 }
 
 @media screen and (max-width: 1265px) {

@@ -9,37 +9,37 @@ li {
 
 header nav ul {
     list-style-type: none;
-background-color: forestgreen;
+background-color:olivedrab;
     }
 
 header nav ul li {
     display: inline-block;
    justify-content: space-between;
-   margin: 20px
+   margin: 20px;
+   border-radius: 25%;
 }
 
 .images {
 display: flex;
 justify-content: center;
-border: 5px;
-border-style: solid;
+margin: 5px;
 }
 
 .image-1{
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 600px;
 }
 
 .image-2{
     display: none;
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 600px;
 }
 
 .image-3 {
     display: none;
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 600px;
 }
 
 .elements{
@@ -47,45 +47,54 @@ border-style: solid;
     flex-wrap: wrap;
 } 
 
-main{
+main {
+    width: 96%;
+}
 
+.row {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+  
+  .justify-center {
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-between;
 }
+  
 
-.card {
-    max-width: 450px;
-    max-height: 450px;
-    border: 3px;
-    border-color: black;
-    border-style: solid;
-    padding: 10px;
+  .card-column {
+    max-width: 350px;
+    max-height: fit-content;
+    border: 5px;
     margin: 10px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items:flex-start;
-}
+  }
+  
 
 .cute-puppy {
     height: 300px;
     width: 300px;   
 }
+
+.card-column:hover{
+    background-color: black;
+    }
+
+
 aside {
     margin-right: 10px;
     clear: both;
     float: right;
     width: 10%;
-    height: 800%;
-    background-color: goldenrod;
+    height:100%;
+    background: goldenrod;
+    color: black;
 }
 
 footer {
     
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1265px) {
     .image-1{
       display: none;
     }
@@ -96,7 +105,7 @@ footer {
   }
   
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 863px) {
     .image-2{
       display: none;
     }

@@ -48,25 +48,30 @@ border-style: solid;
 } 
 
 main{
-    max-width: 1000px;
-    max-height: 1000px;
+
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-right: 20%;
+    align-content: space-between;
 }
 
 .card {
-    max-height: 450px;
+    max-width: 450px;
     max-height: 450px;
     border: 3px;
     border-color: black;
     border-style: solid;
     padding: 10px;
     margin: 10px;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items:flex-start;
 }
 
+.cute-puppy {
+    height: 300px;
+    width: 300px;   
+}
 aside {
     margin-right: 10px;
     clear: both;
@@ -74,6 +79,10 @@ aside {
     width: 10%;
     height: 800%;
     background-color: goldenrod;
+}
+
+footer {
+    
 }
 
 @media screen and (max-width: 992px) {

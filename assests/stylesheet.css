@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-image: linear-gradient(rgb(32, 58, 38), rgb(75, 75, 3));
 }
 
 header {
@@ -87,7 +87,9 @@ main {
   }
   
   .card-column:hover{
-    background-color: pink;
+    background-color: olivedrab;
+    transform: scale(1.5);
+    transition: .3s;
     }
 
 .icon {   
@@ -111,11 +113,10 @@ main {
 
 
 aside {
-    margin-right: 10px;
-    clear: both;
+
     float: right;
     width: 10%;
-    height:100%;
+    height:inherit;
     background: goldenrod;
     color: black;
 }
